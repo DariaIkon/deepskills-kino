@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Jost-Light";
+  src: url(./fonts/Jost-Light.ttf);
+}
+@font-face {
+  font-family: "Jost-Bold";
+  src: url(./fonts/Jost-Bold.ttf);
+}
+body {
+  margin: 0;
+}
+.header__container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  margin-bottom: 70px;
+  border-bottom: 2px solid gray;
+  text-align: left;
+}
+.header__button {
+  font-family: "Jost-Light", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+.header__logo {
+  display: block;
+  width: 102px;
+  height: 76px;
+}
+.main__container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.films__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: calc(-1 * 30px);
+  margin-bottom: calc(-1 * 30px);
+}
+.films__item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.films__item__img {
+  width: 384px;
+  height: 216px;
+  border-radius: 5px;
+}
+.films__item__item:hover {
+}
+.films__item__title {
+  opacity: 0;
+}
+.films__item__text {
+  display: none;
+}
+.main__preview {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.main__preview__img {
+  width: 430px;
+  height: 277px;
+  border-radius: 5px;
+  margin-right: 30px;
+}
+.main__preview__title {
+  font-family: "Jost-Bold", sans-serif;
+  font-size: 35px;
+  margin: 0;
+}
+.main__preview__overview {
+  font-family: "Jost-Light", sans-serif;
+  font-size: 17px;
+  margin: 0;
+  margin-top: 15px;
+}
